@@ -1,0 +1,247 @@
+.pages{
+    width: 100%;
+    margin: 0px;
+    height: auto;
+    padding: 0px 10px;
+    background-color: #1fa67a;
+}
+
+header{
+    background-color: black;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+header .title{
+    font-size: 30pt;
+    font-weight: 600;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header .navbar{
+    font-size: 13pt;
+    font-weight: 600;
+    color: white;
+}
+
+a{
+    color: white !important;
+    text-decoration: none !important;
+}
+
+a:hover{
+    color: goldenrod !important;
+}
+
+.banner{
+    background-image: url('./image/banner.jpeg');
+    width: 100%;
+    height: 500px;
+    position: relative;
+    padding: 20px;
+    background-repeat: round;
+}
+
+.form{
+    float: right;
+    border: solid white 1px;
+    border-radius: 10px;
+    /* background-color: powderblue; */
+    width: 40%;
+    padding: 20px;
+}
+
+.form p{
+    font-size: 15pt;
+    color: black;
+    font-weight: 600;
+    padding: 0px;
+}
+
+.form .input-form{
+    margin: 10px 0px;
+}
+
+article{
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.testimony .title{
+    font-size: 25pt;
+    /* font-weight: 600; */
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.testimony .desc{
+    font-size: 14pt;
+    font-weight: 400;
+    text-align: justify;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.testimony .cust{
+    font-size: 14pt;
+    font-weight: 400;
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.about-us{
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.about-us .title{
+    font-size: 18pt;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+}
+ .about-us .desc{
+     font-size: 14pt;
+     font-weight: 500;
+     text-align: justify;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ .about-us img{
+     width: 100%;
+     padding: 0px;
+     height: 250px;
+     border: solid 1px white;
+     border-radius: 10px;
+ }
+
+ .about-us .read-more{
+     font-size: 14pt;
+     font-weight: 400;
+     color: black !important;
+     text-decoration: underline !important;
+ }
+
+.why-us{
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.why-us .header{
+    font-size: 25pt;
+    /* font-weight: 600; */
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.why-us .col-md-6{
+    padding: 20px;
+}
+
+.why-us .fa{
+    text-align: center;
+    font-size: 30pt !important;
+}
+
+.why-us .title{
+    font-size: 18pt;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.why-us .desc{
+    font-size: 15pt;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.why-us .col-md-6:hover{
+    padding: 20px;
+    color: white;
+    background-color: goldenrod;
+}
+
+.our-rooms img{
+    width: 100%;
+    height: 500px !important;
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.choose{
+    margin: 20px 0px;
+    padding: 20px;
+}
+
+.choose .header{
+    font-size: 25pt;
+    /* font-weight: 600; */
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.choose .fa{
+    font-size: 30pt !important;
+    border: black solid 2px;
+    border-radius: 50% !important;
+    padding: 0px;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    margin: auto;
+    color: black;
+}
+
+.choose .title{
+    font-size: 18pt;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+    color: black;
+}
+
+.choose .desc{
+    font-size: 15pt;
+    font-weight: 500;
+    text-align: justify;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.choose .col-md-4:hover{
+    padding: 20px;
+    color: white;
+    background-color: goldenrod;
+}
+
+footer{
+    background-color: grey;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+
+footer ul{
+    padding: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+    .form {
+    width: 100% !important;
+        }
+    }

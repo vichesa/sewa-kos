@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <link rel="stylesheet" href="layout.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="pages">
+        <header>
+            <div class="row">
+                <div class="col-md-6 title">SEWAKOS.COM</div>
+                <div class="col-md-6 navbar">
+                    <a href="https://www.w3schools.com/default.asp">Home</a>
+                    <a href="https://www.w3schools.com/default.asp">Rooms</a>
+                    <a href="https://www.w3schools.com/default.asp">About us</a>
+                    <a href="https://www.w3schools.com/default.asp">Sign in</a>
+                </div>
+            </div>
+        </header>
+
+        <section class="banner">
+            <div class="row form">
+                <div class="row">
+                    <p>For more information and promo please subscribe</p>
+                    <input class="input-form" type="text" placeholder="Nama anda">
+                    <input class="input-form" type="email" placeholder="Alamat email anda">
+                    <button class="btn-primary">Submit</button>
+                </div>
+            </div>
+        </section>
+        <br />
+        <br />
+        <article class="row testimony">
+            <p class="title">Our Satisfy Customer</p>
+            <div class="row">
+                <p class="desc">
+                    "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit eveniet ut officia est temporibus
+                    reprehenderit deserunt ratione blanditiis veritatis omnis repudiandae tempore vel tempora incidunt
+                    atque, consequatur perspiciatis aliquid suscipit."
+                </p>
+                <p class="cust">
+                    -Lorem
+                </p>
+            </div>
+        </article>
+
+        <section class="about-us">
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="title">About Us</p>
+                    <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit inventore sit
+                        deleniti error vitae blanditiis, eveniet a nostrum numquam voluptate doloribus tempore quas
+                        ducimus? Quae debitis facilis quia tenetur quas?</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="./image/livingroom.jpeg" alt="foto">
+                </div>
+                <div class="col-md-4">
+                    <img src="./image/makan.jpeg" alt="foto">
+                </div>
+                <div class="col-md-4">
+                    <a class="col-md-4 read-more">Read more</a>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section class="why-us">
+            <div class="header">Why Us</div><br /><br />
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <i class="fa fa-usd" aria-hidden="true"></i>
+                    </div>
+                    <p class="title">Affordable</p>
+                    <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo eum, molestias
+                        commodi eaque velit sequi culpa? Alias expedita cum optio voluptates nesciunt autem enim
+                        voluptatem obcaecati! Voluptatibus vero nemo quis.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <i class="fa fa-glass" aria-hidden="true"></i>
+                    </div>
+                    <p class="title">Bars</p>
+                    <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo eum, molestias
+                        commodi eaque velit sequi culpa? Alias expedita cum optio voluptates nesciunt autem enim
+                        voluptatem obcaecati! Voluptatibus vero nemo quis.</p>
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                    </div>
+                    <p class="title">Laudry</p>
+                    <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo eum, molestias
+                        commodi eaque velit sequi culpa? Alias expedita cum optio voluptates nesciunt autem enim
+                        voluptatem obcaecati! Voluptatibus vero nemo quis.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <i class="fa fa-diamond" aria-hidden="true"></i>
+                    </div>
+                    <p class="title">Cozy</p>
+                    <p class="desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo eum, molestias
+                        commodi eaque velit sequi culpa? Alias expedita cum optio voluptates nesciunt autem enim
+                        voluptatem obcaecati! Voluptatibus vero nemo quis.</p>
+                </div>
+            </div>
+
+        </section>
+        <hr />
+        <section style="margin: 20px 0px; padding: 20px;" class="row our-rooms">
+            <p
+                style="font-size: 25pt; text-align: center; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">
+                Our Rooms</p>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="./image/bedroom.jpeg" class="d-block w-100" alt="Bedroom">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bedroom</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./image/toilet.jpeg" class="d-block w-100" alt="Bathroom">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bathroom</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./image/kitchen.jpeg" class="d-block w-100" alt="Kitchen">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Kitchen</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <hr />
+        <section class="choose">
+            <div class="header">Choose Our Rooms</div>
+            <br /><br />
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://www.w3schools.com/default.asp" class="row">
+                        <i class="fa fa-bath" aria-hidden="true"></i>
+                        <p class="title">Luxury</p>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit inventore sit
+                            deleniti error vitae blanditiis, eveniet a nostrum numquam voluptate doloribus tempore quas
+                            ducimus? Quae debitis facilis quia tenetur quas?</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.w3schools.com/default.asp" class="row">
+                        <i class="fa fa-child" aria-hidden="true"></i>
+                        <p class="title">Family</p>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit inventore sit
+                            deleniti error vitae blanditiis, eveniet a nostrum numquam voluptate doloribus tempore quas
+                            ducimus? Quae debitis facilis quia tenetur quas?</p>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://www.w3schools.com/default.asp" class="row">
+                        <i class="fa fa-bed" aria-hidden="true"></i>
+                        <p class="title">Single</p>
+                        <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit inventore sit
+                            deleniti error vitae blanditiis, eveniet a nostrum numquam voluptate doloribus tempore quas
+                            ducimus? Quae debitis facilis quia tenetur quas?</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="row">
+                <div class="col-md-4">
+                    <ul type="none">
+                        <li><a href="https://www.w3schools.com/default.asp">Testimony</a></li>
+                        <li><a href="https://www.w3schools.com/default.asp">Reservation</a></li>
+                        <li><a href="https://www.w3schools.com/default.asp">News</a></li>
+                        <li><a href="https://www.w3schools.com/default.asp">Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul type="none">
+                        <li><a href="https://www.w3schools.com/default.asp">Contact us</a></li>
+                        <li><a href="https://www.w3schools.com/default.asp">Jl. Sariindah no. 10</a></li>
+                        <li><a href="https://www.w3schools.com/default.asp">contact@gmail.com</a></li>
+                        <li><a href="https://www.w3schools.com/default.asp">Whatsapp</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul>
+                        <li><a href="https://www.w3schools.com/default.asp">Social media</a></li>
+                        <li><a href="https://www.w3schools.com/default.asp">Facebook</a></li>
+                        <li><a href="https://www.w3schools.com/default.asp">Instagram</a></li>
+                        <li><a href="https://www.w3schools.com/default.asp">Twitter</a></li>
+                    </ul>
+                </div>
+                <hr />
+                <div class="row">
+                    <p style="text-align: center; color: white; margin: 0px; padding: 0px;">
+                        Copyright@2021</p>
+                </div>
+        </footer>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+
+</html>
